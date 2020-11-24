@@ -1,0 +1,745 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\projects\myNumitronWatch v2\watch_main_final\watch_main_final.sch</source>
+    <date>11/22/2020 9:03:57 PM</date>
+    <tool>Eeschema (5.1.5)-2</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>watch_main_final.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="IC1">
+      <value>RV-3029</value>
+      <footprint>watch_main_final:RV-3029-C2</footprint>
+      <libsource lib="watch_main_final-eagle-import" part="RV-3029" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>BC34DC86</tstamp>
+    </comp>
+    <comp ref="IC3">
+      <value>TLC6C598-Q1</value>
+      <footprint>watch_main_final:TSSOP-16</footprint>
+      <fields>
+        <field name="LCSC">C132050</field>
+      </fields>
+      <libsource lib="watch_main_final-eagle-import" part="TLC6C598-Q1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>B686635D</tstamp>
+    </comp>
+    <comp ref="IC4">
+      <value>TLC6C598-Q1</value>
+      <footprint>watch_main_final:TSSOP-16</footprint>
+      <fields>
+        <field name="LCSC">C132050</field>
+      </fields>
+      <libsource lib="watch_main_final-eagle-import" part="TLC6C598-Q1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>FA55F29D</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10n</value>
+      <footprint>watch_main_final:C0603</footprint>
+      <fields>
+        <field name="LCSC">C57112</field>
+      </fields>
+      <libsource lib="watch_main_final-eagle-import" part="C-EUC0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>DB65CDE5</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10K</value>
+      <footprint>watch_main_final:R0603</footprint>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="watch_main_final-eagle-import" part="R-EU_R0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>DE04AF3C</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>4.7K</value>
+      <footprint>watch_main_final:R0603</footprint>
+      <fields>
+        <field name="LCSC">C23162</field>
+      </fields>
+      <libsource lib="watch_main_final-eagle-import" part="R-EU_R0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>E5D5F805</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>4.7K</value>
+      <footprint>watch_main_final:R0603</footprint>
+      <fields>
+        <field name="LCSC">C23162</field>
+      </fields>
+      <libsource lib="watch_main_final-eagle-import" part="R-EU_R0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>C081F5F6</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100n</value>
+      <footprint>watch_main_final:C0603</footprint>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="watch_main_final-eagle-import" part="C-EUC0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>AEC71D01</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10K</value>
+      <footprint>watch_main_final:R0603</footprint>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="watch_main_final-eagle-import" part="R-EU_R0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>30FCCEAE</tstamp>
+    </comp>
+    <comp ref="IC2">
+      <value>ATMega328p</value>
+      <footprint>Package_QFP:TQFP-32_7x7mm_P0.8mm</footprint>
+      <fields>
+        <field name="LCSC">C38896</field>
+      </fields>
+      <libsource lib="watch_main_final-eagle-import" part="MEGA8-AI" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>22F7723E</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>100n</value>
+      <footprint>watch_main_final:C0603</footprint>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="watch_main_final-eagle-import" part="C-EUC0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>C1FD9C95</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>100n</value>
+      <footprint>watch_main_final:C0603</footprint>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="watch_main_final-eagle-import" part="C-EUC0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>93F3FA2A</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>MCP73831</value>
+      <footprint>watch_main_final:SOT23-5</footprint>
+      <fields>
+        <field name="LCSC">C14879</field>
+      </fields>
+      <libsource lib="watch_main_final-eagle-import" part="MCP73831" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>94FABF20</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>4.7uF</value>
+      <footprint>watch_main_final:C0603</footprint>
+      <fields>
+        <field name="LCSC">C53987</field>
+      </fields>
+      <libsource lib="watch_main_final-eagle-import" part="C-EUC0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>9FEF3673</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>27</value>
+      <footprint>watch_main_final:R0603</footprint>
+      <fields>
+        <field name="LCSC">C25190</field>
+      </fields>
+      <libsource lib="watch_main_final-eagle-import" part="R-EU_R0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>8E4418F9</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>4.02k</value>
+      <footprint>watch_main_final:R0603</footprint>
+      <libsource lib="watch_main_final-eagle-import" part="R-EU_R0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>864C12D3</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>4.7uF</value>
+      <footprint>watch_main_final:C0603</footprint>
+      <fields>
+        <field name="LCSC">C53987</field>
+      </fields>
+      <libsource lib="watch_main_final-eagle-import" part="C-EUC0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>A583E351</tstamp>
+    </comp>
+    <comp ref="S1">
+      <value>KMSXXXG</value>
+      <footprint>watch_main_final:C&amp;K-KMS-SWITCH</footprint>
+      <libsource lib="watch_main_final-eagle-import" part="KMSXXXG" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>788C9994</tstamp>
+    </comp>
+    <comp ref="S2">
+      <value>KMSXXXG</value>
+      <footprint>watch_main_final:C&amp;K-KMS-SWITCH</footprint>
+      <libsource lib="watch_main_final-eagle-import" part="KMSXXXG" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>F9B5905E</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>10K</value>
+      <footprint>watch_main_final:R0603</footprint>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="watch_main_final-eagle-import" part="R-EU_R0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6C198247</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>10K</value>
+      <footprint>watch_main_final:R0603</footprint>
+      <fields>
+        <field name="LCSC">C25804</field>
+      </fields>
+      <libsource lib="watch_main_final-eagle-import" part="R-EU_R0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>B154411E</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>programmer</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="Conn_01x04_Female" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5F9EAD9B</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>USB_B_Micro</value>
+      <footprint>USB Micro numitronWatch:USB_MicroB</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="USB_B_Micro" description="USB Micro Type B connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FA712AE</tstamp>
+    </comp>
+    <comp ref="CONN1">
+      <value>PCBMOUNT-main</value>
+      <footprint>USB Micro numitronWatch:numitronWatchPCBMountTube</footprint>
+      <libsource lib="watch_main_final-eagle-import" part="PCBMOUNT-main" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FB55A3E</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C2293</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FCCFA05</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100n</value>
+      <footprint>watch_main_final:C0603</footprint>
+      <fields>
+        <field name="LCSC">C14663</field>
+      </fields>
+      <libsource lib="watch_main_final-eagle-import" part="C-EUC0603" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>EE7D9419</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x04_Female">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_B_Micro">
+      <aliases>
+        <alias>USB_B_Mini</alias>
+      </aliases>
+      <description>USB Micro Type B connector</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_B_Micro</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="passive"/>
+        <pin num="3" name="D+" type="passive"/>
+        <pin num="4" name="ID" type="passive"/>
+        <pin num="5" name="GND" type="power_out"/>
+        <pin num="6" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="watch_main_final-eagle-import" part="C-EUC0603">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C-EUC0603</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="watch_main_final-eagle-import" part="KMSXXXG">
+      <fields>
+        <field name="Value">KMSXXXG</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="BiDi"/>
+        <pin num="2" name="2" type="BiDi"/>
+        <pin num="3" name="3" type="BiDi"/>
+        <pin num="4" name="4" type="BiDi"/>
+        <pin num="5" name="5" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="watch_main_final-eagle-import" part="MCP73831">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP73831</field>
+      </fields>
+      <pins>
+        <pin num="1" name="STAT" type="output"/>
+        <pin num="2" name="VSS" type="power_in"/>
+        <pin num="3" name="VBAT" type="power_in"/>
+        <pin num="4" name="VIN" type="power_in"/>
+        <pin num="5" name="PROG" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="watch_main_final-eagle-import" part="MEGA8-AI">
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">MEGA8-AI</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PD3(INT1)" type="BiDi"/>
+        <pin num="2" name="PD4(XCK/T0)" type="BiDi"/>
+        <pin num="3" name="GND@1" type="power_in"/>
+        <pin num="4" name="VCC@1" type="power_in"/>
+        <pin num="5" name="GND@2" type="power_in"/>
+        <pin num="6" name="VCC@2" type="power_in"/>
+        <pin num="7" name="PB6(XTAL1/TOSC1)" type="BiDi"/>
+        <pin num="8" name="PB7(XTAL2/TOSC2)" type="BiDi"/>
+        <pin num="9" name="PD5(T1)" type="BiDi"/>
+        <pin num="10" name="PD6(AIN0)" type="BiDi"/>
+        <pin num="11" name="PD7(AIN1)" type="BiDi"/>
+        <pin num="12" name="PB0(ICP)" type="BiDi"/>
+        <pin num="13" name="PB1(OC1A)" type="BiDi"/>
+        <pin num="14" name="PB2(SS/OC1B)" type="BiDi"/>
+        <pin num="15" name="PB3(MOSI/OC2)" type="BiDi"/>
+        <pin num="16" name="PB4(MISO)" type="BiDi"/>
+        <pin num="17" name="PB5(SCK)" type="BiDi"/>
+        <pin num="18" name="AVCC" type="power_in"/>
+        <pin num="19" name="ADC6" type="BiDi"/>
+        <pin num="20" name="AREF" type="passive"/>
+        <pin num="21" name="GND" type="power_in"/>
+        <pin num="22" name="ADC7" type="BiDi"/>
+        <pin num="23" name="PC0(ADC0)" type="BiDi"/>
+        <pin num="24" name="PC1(ADC1)" type="BiDi"/>
+        <pin num="25" name="PC2(ADC2)" type="BiDi"/>
+        <pin num="26" name="PC3(ADC3)" type="BiDi"/>
+        <pin num="27" name="PC4(ADC4/SDA)" type="BiDi"/>
+        <pin num="28" name="PC5(ADC5/SCL)" type="BiDi"/>
+        <pin num="29" name="PC6(/RESET)" type="BiDi"/>
+        <pin num="30" name="PD0(RXD)" type="BiDi"/>
+        <pin num="31" name="PD1(TXD)" type="BiDi"/>
+        <pin num="32" name="PD2(INT0)" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="watch_main_final-eagle-import" part="PCBMOUNT-main">
+      <fields>
+        <field name="Value">PCBMOUNT-main</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="BiDi"/>
+        <pin num="2" name="2" type="BiDi"/>
+        <pin num="3" name="3" type="BiDi"/>
+        <pin num="4" name="4" type="BiDi"/>
+        <pin num="5" name="5" type="BiDi"/>
+        <pin num="6" name="6" type="BiDi"/>
+        <pin num="7" name="7" type="BiDi"/>
+        <pin num="8" name="8" type="BiDi"/>
+        <pin num="9" name="9" type="BiDi"/>
+        <pin num="10" name="10" type="BiDi"/>
+        <pin num="11" name="11" type="BiDi"/>
+        <pin num="12" name="12" type="BiDi"/>
+        <pin num="13" name="13" type="BiDi"/>
+        <pin num="14" name="14" type="BiDi"/>
+        <pin num="GND" name="P2" type="BiDi"/>
+        <pin num="VCC" name="P1" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="watch_main_final-eagle-import" part="R-EU_R0603">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-EU_R0603</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="watch_main_final-eagle-import" part="RV-3029">
+      <fields>
+        <field name="Value">RV-3029</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="input"/>
+        <pin num="2" name="CLKOUT" type="output"/>
+        <pin num="4" name="SCL" type="input"/>
+        <pin num="5" name="SDA" type="BiDi"/>
+        <pin num="6" name="VSS" type="input"/>
+        <pin num="7" name="~INT" type="output"/>
+        <pin num="8" name="VBACKUP" type="input"/>
+        <pin num="10" name="CLKOE" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="watch_main_final-eagle-import" part="TLC6C598-Q1">
+      <fields>
+        <field name="Value">TLC6C598-Q1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="input"/>
+        <pin num="2" name="SERIN" type="input"/>
+        <pin num="3" name="DRAIN0" type="output"/>
+        <pin num="4" name="DRAIN1" type="output"/>
+        <pin num="5" name="DRAIN2" type="output"/>
+        <pin num="6" name="DRAIN3" type="output"/>
+        <pin num="7" name="~CLR" type="input"/>
+        <pin num="8" name="~G" type="input"/>
+        <pin num="9" name="SEROUT" type="output"/>
+        <pin num="10" name="RCK" type="input"/>
+        <pin num="11" name="DRAIN4" type="output"/>
+        <pin num="12" name="DRAIN5" type="output"/>
+        <pin num="13" name="DRAIN6" type="output"/>
+        <pin num="14" name="DRAIN7" type="output"/>
+        <pin num="15" name="SERCK" type="input"/>
+        <pin num="16" name="GND" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="watch_main_final-eagle-import">
+      <uri>C:\projects\myNumitronWatch v2\watch_main_final/watch_main_final-eagle-import.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(IC2-Pad7)">
+      <node ref="IC2" pin="7"/>
+    </net>
+    <net code="2" name="Net-(IC2-Pad8)">
+      <node ref="IC2" pin="8"/>
+    </net>
+    <net code="3" name="Net-(IC2-Pad9)">
+      <node ref="IC2" pin="9"/>
+    </net>
+    <net code="4" name="Net-(IC2-Pad26)">
+      <node ref="IC2" pin="26"/>
+    </net>
+    <net code="5" name="Net-(IC2-Pad25)">
+      <node ref="IC2" pin="25"/>
+    </net>
+    <net code="6" name="Net-(IC2-Pad24)">
+      <node ref="IC2" pin="24"/>
+    </net>
+    <net code="7" name="Net-(IC2-Pad23)">
+      <node ref="IC2" pin="23"/>
+    </net>
+    <net code="8" name="Net-(IC2-Pad22)">
+      <node ref="IC2" pin="22"/>
+    </net>
+    <net code="9" name="GND">
+      <node ref="J1" pin="5"/>
+      <node ref="R1" pin="1"/>
+      <node ref="CONN1" pin="GND"/>
+      <node ref="IC3" pin="16"/>
+      <node ref="C2" pin="2"/>
+      <node ref="IC1" pin="10"/>
+      <node ref="IC1" pin="6"/>
+      <node ref="C3" pin="2"/>
+      <node ref="S1" pin="5"/>
+      <node ref="S2" pin="1"/>
+      <node ref="S2" pin="5"/>
+      <node ref="R6" pin="2"/>
+      <node ref="C11" pin="1"/>
+      <node ref="S1" pin="1"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="IC2" pin="5"/>
+      <node ref="IC2" pin="3"/>
+      <node ref="IC2" pin="21"/>
+      <node ref="C10" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="IC4" pin="16"/>
+    </net>
+    <net code="10" name="Net-(IC2-Pad2)">
+      <node ref="IC2" pin="2"/>
+    </net>
+    <net code="11" name="Net-(IC2-Pad19)">
+      <node ref="IC2" pin="19"/>
+    </net>
+    <net code="12" name="Net-(R5-Pad1)">
+      <node ref="U1" pin="1"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="13" name="VCC">
+      <node ref="R8" pin="2"/>
+      <node ref="IC2" pin="4"/>
+      <node ref="C11" pin="2"/>
+      <node ref="R7" pin="2"/>
+      <node ref="R4" pin="1"/>
+      <node ref="IC4" pin="1"/>
+      <node ref="IC3" pin="7"/>
+      <node ref="U1" pin="3"/>
+      <node ref="R2" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="IC3" pin="1"/>
+      <node ref="CONN1" pin="VCC"/>
+      <node ref="IC2" pin="18"/>
+      <node ref="C9" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="IC4" pin="7"/>
+      <node ref="C1" pin="1"/>
+      <node ref="IC1" pin="1"/>
+      <node ref="IC2" pin="6"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="14" name="Net-(IC4-Pad9)">
+      <node ref="IC4" pin="9"/>
+    </net>
+    <net code="15" name="Net-(IC3-Pad9)">
+      <node ref="IC3" pin="9"/>
+      <node ref="IC4" pin="2"/>
+    </net>
+    <net code="16" name="Net-(IC4-Pad14)">
+      <node ref="IC4" pin="14"/>
+    </net>
+    <net code="17" name="/LATCH">
+      <node ref="IC2" pin="12"/>
+      <node ref="IC4" pin="10"/>
+      <node ref="IC3" pin="10"/>
+    </net>
+    <net code="18" name="Net-(IC2-Pad10)">
+      <node ref="IC2" pin="10"/>
+    </net>
+    <net code="19" name="Net-(C2-Pad1)">
+      <node ref="IC2" pin="20"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="20" name="Net-(IC1-Pad8)">
+      <node ref="R1" pin="2"/>
+      <node ref="IC1" pin="8"/>
+    </net>
+    <net code="21" name="/TUBE1_3">
+      <node ref="CONN1" pin="3"/>
+      <node ref="IC3" pin="5"/>
+    </net>
+    <net code="22" name="/TUBE1_1">
+      <node ref="CONN1" pin="1"/>
+      <node ref="IC3" pin="3"/>
+    </net>
+    <net code="23" name="/TUBE1_2">
+      <node ref="CONN1" pin="2"/>
+      <node ref="IC3" pin="4"/>
+    </net>
+    <net code="24" name="/TUBE1_4">
+      <node ref="CONN1" pin="4"/>
+      <node ref="IC3" pin="6"/>
+    </net>
+    <net code="25" name="/TUBE1_5">
+      <node ref="CONN1" pin="5"/>
+      <node ref="IC3" pin="11"/>
+    </net>
+    <net code="26" name="/TUBE1_6">
+      <node ref="CONN1" pin="6"/>
+      <node ref="IC3" pin="12"/>
+    </net>
+    <net code="27" name="/TUBE1_7">
+      <node ref="IC3" pin="13"/>
+      <node ref="CONN1" pin="7"/>
+    </net>
+    <net code="28" name="/TUBE2_7">
+      <node ref="CONN1" pin="14"/>
+      <node ref="IC4" pin="13"/>
+    </net>
+    <net code="29" name="Net-(IC1-Pad2)">
+      <node ref="IC1" pin="2"/>
+    </net>
+    <net code="30" name="Net-(IC3-Pad14)">
+      <node ref="IC3" pin="14"/>
+    </net>
+    <net code="31" name="Net-(IC1-Pad7)">
+      <node ref="IC1" pin="7"/>
+    </net>
+    <net code="32" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="33" name="Net-(S2-Pad3)">
+      <node ref="S2" pin="3"/>
+    </net>
+    <net code="34" name="Net-(S1-Pad3)">
+      <node ref="S1" pin="3"/>
+    </net>
+    <net code="35" name="Net-(R6-Pad1)">
+      <node ref="U1" pin="5"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="37" name="Net-(J1-Pad3)">
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="38" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="39" name="Net-(J1-Pad4)">
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="40" name="Net-(J1-Pad6)">
+      <node ref="J1" pin="6"/>
+    </net>
+    <net code="41" name="/MOSI">
+      <node ref="IC2" pin="15"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="42" name="/ENABLE">
+      <node ref="IC4" pin="8"/>
+      <node ref="IC3" pin="8"/>
+      <node ref="IC2" pin="14"/>
+    </net>
+    <net code="43" name="/SDA">
+      <node ref="R3" pin="1"/>
+      <node ref="IC1" pin="5"/>
+      <node ref="IC2" pin="27"/>
+    </net>
+    <net code="44" name="/SCL">
+      <node ref="R2" pin="1"/>
+      <node ref="IC2" pin="28"/>
+      <node ref="IC1" pin="4"/>
+    </net>
+    <net code="45" name="/SW1">
+      <node ref="IC2" pin="32"/>
+      <node ref="S1" pin="2"/>
+      <node ref="S1" pin="4"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="46" name="/RST">
+      <node ref="R4" pin="2"/>
+      <node ref="J2" pin="4"/>
+      <node ref="IC2" pin="29"/>
+    </net>
+    <net code="47" name="/SW2">
+      <node ref="R8" pin="1"/>
+      <node ref="S2" pin="4"/>
+      <node ref="IC2" pin="1"/>
+      <node ref="S2" pin="2"/>
+    </net>
+    <net code="48" name="/SCK">
+      <node ref="J2" pin="3"/>
+      <node ref="IC2" pin="17"/>
+    </net>
+    <net code="49" name="/MISO">
+      <node ref="J2" pin="2"/>
+      <node ref="IC2" pin="16"/>
+    </net>
+    <net code="50" name="/TX">
+      <node ref="IC2" pin="31"/>
+    </net>
+    <net code="51" name="/RX">
+      <node ref="IC2" pin="30"/>
+    </net>
+    <net code="52" name="/DATA">
+      <node ref="IC3" pin="2"/>
+      <node ref="IC2" pin="11"/>
+    </net>
+    <net code="53" name="/CLOCK">
+      <node ref="IC2" pin="13"/>
+      <node ref="IC4" pin="15"/>
+      <node ref="IC3" pin="15"/>
+    </net>
+    <net code="54" name="VCC/2">
+      <node ref="C10" pin="2"/>
+      <node ref="U1" pin="4"/>
+      <node ref="D1" pin="2"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="55" name="/TUBE2_1">
+      <node ref="IC4" pin="3"/>
+      <node ref="CONN1" pin="8"/>
+    </net>
+    <net code="56" name="/TUBE2_2">
+      <node ref="IC4" pin="4"/>
+      <node ref="CONN1" pin="9"/>
+    </net>
+    <net code="57" name="/TUBE2_3">
+      <node ref="CONN1" pin="10"/>
+      <node ref="IC4" pin="5"/>
+    </net>
+    <net code="58" name="/TUBE2_4">
+      <node ref="IC4" pin="6"/>
+      <node ref="CONN1" pin="11"/>
+    </net>
+    <net code="59" name="/TUBE2_5">
+      <node ref="CONN1" pin="12"/>
+      <node ref="IC4" pin="11"/>
+    </net>
+    <net code="60" name="/TUBE2_6">
+      <node ref="CONN1" pin="13"/>
+      <node ref="IC4" pin="12"/>
+    </net>
+  </nets>
+</export>

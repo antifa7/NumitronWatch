@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name watch_main_final)(type KiCad)(uri "$(KIPRJMOD)/watch_main_final.pretty")(options "")(descr ""))
+)
